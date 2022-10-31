@@ -31,6 +31,5 @@ def main(n):
     else:
         index = 1
     return index
-print(main(56487))
-    
+
   
