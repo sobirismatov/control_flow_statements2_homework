@@ -28,5 +28,5 @@ def main(number):
     elif number==6:
         day="Saturday"
     elif number==7:
-        day="Sunday"
+        day= "Sunday"
         return number
