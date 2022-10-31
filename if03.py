@@ -9,11 +9,11 @@ def main(a,b,c):
         int: return answer.
     """
     d=b
-    if a<b and b<c:
+    if a<b and b<c or c<b and b<a:
         d=b
-    elif a<c and c<b:
+    elif a<c and c<b or b<c and c<a:
         d=c
-    elif b<a and a<c:
+    elif b<a and a<c or c<a and a<b:
         d=a
         
     return d
