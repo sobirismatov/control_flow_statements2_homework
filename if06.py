@@ -13,14 +13,14 @@ def main(n):
     n5=n//10000
     mx =0
     if mx==n1:
-        mx=1
+        mx=5
     if mx<n2:
-        mx=2
+        mx=4
     if mx<n3:
         mx=3
     if mx<n4:
-        mx=4
+        mx=2
     if mx<n5:
-        mx=5
+        mx=1
     return mx
 print(main(53197))
