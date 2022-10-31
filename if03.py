@@ -8,12 +8,12 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    d=b
+    d=0
     if a<b and b<c:
         d=b
-    if a<c and c<b:
+    elif a<c and c<b:
         d=c
-    if b<a and a<c:
+    elif b<a and a<c:
         d=a
         
     return d
