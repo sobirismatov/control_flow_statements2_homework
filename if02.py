@@ -8,9 +8,9 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    min=a
-    if min<b:
-        min=b
-    if min<c:
-        min=c
-    return min
+    answer=a
+    if answer<b:
+        answer=b
+    if answer<c:
+        answer=c
+    return answer
