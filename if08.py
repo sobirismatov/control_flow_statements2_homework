@@ -29,4 +29,4 @@ def main(number):
         day="Saturday"
     elif number==7:
         day= "Sunday"
-        return number
+        return day

@@ -6,10 +6,10 @@ def main(n):
     Returns:
         int: return answer.
     """
-    n1=n%2
-    n2=n//10%2
-    n3=n//100%2
-    n4=n//1000%2
+    n1=n%10
+    n2=n//10%10
+    n3=n//100%10
+    n4=n//1000%10
     n5=n//10000
     mx=n1
     if mx<n2:
