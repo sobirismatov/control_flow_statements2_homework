@@ -28,8 +28,8 @@ def main(n):
     if(mx < n5):
         mx = n5
         index = 5
-    else:
-        index = 1
+
     return index
+print(main(23456))
 
   
