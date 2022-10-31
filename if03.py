@@ -8,7 +8,7 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    d=0
+    d=b
     if a<b and b<c:
         d=b
     if a<c and c<b:
