@@ -24,7 +24,7 @@ def main(temp):
         c="Normal"
     elif 31<=temp and temp<=40:
         c="Hot"
-    elif 41<=temp and temp<=50:
+    elif 40<temp:
         c="Very Hot"
 
 
